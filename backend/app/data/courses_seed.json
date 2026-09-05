@@ -1,0 +1,252 @@
+[
+  {
+    "id": "c1010000-0000-0000-0000-000000000001",
+    "title": "Survey Design & Multi-Stage Sampling (NSSO Standards)",
+    "domain": "Statistical",
+    "skill_tag": "Survey Sampling & Methodology",
+    "level": "Practitioner",
+    "duration_hours": 16,
+    "source": "NSSTA",
+    "description": "Master stratified cluster sampling, sample size determination, variance estimation, and weighting procedures used in official NSSO nationwide socioeconomic surveys."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000002",
+    "title": "National Accounts & Macroeconomic Aggregates (SNA 2008)",
+    "domain": "Statistical",
+    "skill_tag": "National Accounts & Macro-aggregates",
+    "level": "Advanced",
+    "duration_hours": 24,
+    "source": "NSSTA",
+    "description": "Comprehensive training on GVA and GDP computation, Supply-Use Tables, capital stock estimation, and transition to UN System of National Accounts."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000003",
+    "title": "Compilation & Analysis of Price Indices (CPI, WPI & IIP)",
+    "domain": "Statistical",
+    "skill_tag": "Price Indices (CPI/WPI/IIP)",
+    "level": "Intermediate",
+    "duration_hours": 14,
+    "source": "iGOT",
+    "description": "Practical methodology for base year revision, basket price collection, Laspeyres index formulation, and core inflation modeling."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000004",
+    "title": "Statistical Inference & Hypothesis Testing for Public Data",
+    "domain": "Statistical",
+    "skill_tag": "Hypothesis Testing & Statistical Inference",
+    "level": "Intermediate",
+    "duration_hours": 12,
+    "source": "iGOT",
+    "description": "Parametric and non-parametric hypothesis tests, confidence intervals, p-value interpretation, and regression analysis for policy evaluation."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000005",
+    "title": "Time Series Forecasting for Economic Governance",
+    "domain": "Statistical",
+    "skill_tag": "Time Series Forecasting",
+    "level": "Advanced",
+    "duration_hours": 18,
+    "source": "NSSTA",
+    "description": "ARIMA, seasonal adjustment methods (X-13ARIMA-SEATS), structural break detection, and macroeconomic trend forecasting."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000006",
+    "title": "Python for Public Sector Data Analysis",
+    "domain": "Technical",
+    "skill_tag": "Python for Data Science",
+    "level": "Foundational",
+    "duration_hours": 20,
+    "source": "iGOT",
+    "description": "Hands-on Python, Pandas, NumPy, and Matplotlib specifically designed for civil servants processing large administrative datasets and CSV/Excel exports."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000007",
+    "title": "Advanced Python Automation for Statistical Workflows",
+    "domain": "Technical",
+    "skill_tag": "Python for Data Science",
+    "level": "Practitioner",
+    "duration_hours": 15,
+    "source": "NSSTA",
+    "description": "Automate routine data reconciliation, web scraping of state port data, batch cleaning, and scheduled reporting pipelines using Python."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000008",
+    "title": "Enterprise SQL & Database Querying for Public Registries",
+    "domain": "Technical",
+    "skill_tag": "SQL & Relational Databases",
+    "level": "Intermediate",
+    "duration_hours": 16,
+    "source": "iGOT",
+    "description": "Writing complex multi-table JOINs, window functions, CTEs, and aggregated subqueries on PostgreSQL and Oracle statistical databases."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000009",
+    "title": "Applied Machine Learning for Official Statistics",
+    "domain": "Technical",
+    "skill_tag": "Machine Learning & Predictive Modeling",
+    "level": "Advanced",
+    "duration_hours": 25,
+    "source": "NSSTA",
+    "description": "Supervised algorithms, anomaly detection in tax/census filings, natural language text classification for economic activity coding, and scikit-learn pipelines."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000010",
+    "title": "Intro to QGIS & Spatial Analytics for Census Data",
+    "domain": "Technical",
+    "skill_tag": "GIS & Spatial Analytics",
+    "level": "Intermediate",
+    "duration_hours": 18,
+    "source": "iGOT",
+    "description": "Creating thematic maps, district choropleths, spatial clustering of village amenities, and handling shapefiles and GeoTIFFs using open-source QGIS."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000011",
+    "title": "Data Visualization & Executive BI Dashboards",
+    "domain": "Technical",
+    "skill_tag": "Data Visualization & BI Dashboards",
+    "level": "Intermediate",
+    "duration_hours": 12,
+    "source": "iGOT",
+    "description": "Designing clear interactive dashboards, KPI heatmaps, and visual charts for ministry review meetings using PowerBI and modern charting libraries."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000012",
+    "title": "DPDP Act 2023: Compliance Framework for Data Custodians",
+    "domain": "Digital Governance",
+    "skill_tag": "Digital Personal Data Protection (DPDP)",
+    "level": "Practitioner",
+    "duration_hours": 10,
+    "source": "iGOT",
+    "description": "Understanding obligations under the Digital Personal Data Protection Act, lawful grounds for processing citizen data, data fiduciary roles, and privacy audits."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000013",
+    "title": "GovTech Cybersecurity & CERT-In Compliance Guidelines",
+    "domain": "Digital Governance",
+    "skill_tag": "Cybersecurity & IT Audit Compliance",
+    "level": "Intermediate",
+    "duration_hours": 8,
+    "source": "iGOT",
+    "description": "Mandatory cybersecurity measures, role-based access control, incident reporting protocols to CERT-In, and securing internal databases from data leaks."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000014",
+    "title": "Open Government Data & National Data Analytics Platform (NDAP)",
+    "domain": "Digital Governance",
+    "skill_tag": "Open Government Data (NDAP & Portals)",
+    "level": "Foundational",
+    "duration_hours": 6,
+    "source": "iGOT",
+    "description": "Publishing open data under NDSAP, metadata standardization, utilizing NDAP APIs, and facilitating public data accessibility."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000015",
+    "title": "Data Quality Assurance, Field Scrutiny & Validation Rules",
+    "domain": "Digital Governance",
+    "skill_tag": "Data Quality Assurance & Validation",
+    "level": "Practitioner",
+    "duration_hours": 14,
+    "source": "NSSTA",
+    "description": "Designing automated validation checklists, non-sampling error detection, field enumerator supervision, and data consistency algorithms."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000016",
+    "title": "Inter-Departmental Data Sharing & API Standards",
+    "domain": "Digital Governance",
+    "skill_tag": "Inter-Departmental Data Exchange Standards",
+    "level": "Intermediate",
+    "duration_hours": 10,
+    "source": "iGOT",
+    "description": "Federal data governance, REST API standards for inter-ministerial data exchange, DigiLocker integration, and semantic schema harmonization."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000017",
+    "title": "Policy Briefing & Translating Analytics for Decision Makers",
+    "domain": "Behavioural",
+    "skill_tag": "Policy Briefing & Executive Communication",
+    "level": "Advanced",
+    "duration_hours": 8,
+    "source": "iGOT",
+    "description": "Crafting concise 1-page cabinet notes, non-technical executive summaries of complex statistical surveys, and oral briefing techniques."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000018",
+    "title": "Cross-Departmental Stakeholder Coordination & Consensus",
+    "domain": "Behavioural",
+    "skill_tag": "Inter-Departmental Stakeholder Coordination",
+    "level": "Intermediate",
+    "duration_hours": 10,
+    "source": "iGOT",
+    "description": "Negotiating data sharing agreements between central ministries and state directorates, running steering committees, and conflict resolution."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000019",
+    "title": "Evidence-Based Policy Formulation & Impact Assessment",
+    "domain": "Behavioural",
+    "skill_tag": "Evidence-Based Decision Making",
+    "level": "Practitioner",
+    "duration_hours": 12,
+    "source": "NSSTA",
+    "description": "Formulating developmental program evaluations, randomized control trials in governance, cost-benefit analysis, and statistical evidence synthesis."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000020",
+    "title": "Field Team Leadership & Large Survey Project Management",
+    "domain": "Behavioural",
+    "skill_tag": "Project Leadership & Resource Management",
+    "level": "Practitioner",
+    "duration_hours": 14,
+    "source": "NSSTA",
+    "description": "Resource planning for census and nationwide field operations, enumerator motivation, milestone tracking, and survey logistics management."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000021",
+    "title": "Analytical Problem Solving & Root Cause Diagnosis in Surveys",
+    "domain": "Behavioural",
+    "skill_tag": "Analytical Problem Solving",
+    "level": "Practitioner",
+    "duration_hours": 10,
+    "source": "iGOT",
+    "description": "Structured root cause analysis for high non-response rates, outlier investigation, statistical troubleshooting, and corrective protocol deployment."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000022",
+    "title": "RTI Act & Public Information Governance",
+    "domain": "Digital Governance",
+    "skill_tag": "Digital Personal Data Protection (DPDP)",
+    "level": "Foundational",
+    "duration_hours": 6,
+    "source": "iGOT",
+    "description": "Balancing Right to Information mandates with data privacy protections, handling statistical disclosure risks, and proactive disclosure protocols."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000023",
+    "title": "Spatial Modeling & Geospatial Indicators for SDGs",
+    "domain": "Technical",
+    "skill_tag": "GIS & Spatial Analytics",
+    "level": "Advanced",
+    "duration_hours": 16,
+    "source": "NSSTA",
+    "description": "Tracking UN Sustainable Development Goals using remote sensing datasets, satellite imagery, and spatial regression in public policymaking."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000024",
+    "title": "Automated Survey Processing & Field Data Reconciliation",
+    "domain": "Statistical",
+    "skill_tag": "Survey Sampling & Methodology",
+    "level": "Intermediate",
+    "duration_hours": 12,
+    "source": "NSSTA",
+    "description": "Techniques for computer-assisted personal interviewing (CAPI), real-time field error scrubbing, and multi-round survey tabulation."
+  },
+  {
+    "id": "c1010000-0000-0000-0000-000000000025",
+    "title": "Modern Econometric Modeling for Macro-Forecasting",
+    "domain": "Statistical",
+    "skill_tag": "Time Series Forecasting",
+    "level": "Advanced",
+    "duration_hours": 20,
+    "source": "NSSTA",
+    "description": "Vector Autoregression (VAR), Error Correction Models, and cointegration testing for assessing monetary and fiscal policy shocks."
+  }
+]

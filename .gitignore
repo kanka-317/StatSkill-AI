@@ -1,0 +1,29 @@
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python & Backend
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+!.env.example
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker volumes
+postgres_data/

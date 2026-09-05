@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  # ============================================================================
+  # 1. PostgreSQL with pgvector (Local Development Database)
+  # In production, replace DATABASE_URL in .env with your free-tier Supabase URL
+  # ============================================================================
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: statskill_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-statskill}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d statskill"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ============================================================================
+  # 2. FastAPI Backend API
+  # Live-reloads code from ./backend in local development
+  # ============================================================================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: statskill_backend
+    restart: unless-stopped
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      # If DATABASE_URL is not set in root .env, default to the local docker postgres service
+      DATABASE_URL: ${DATABASE_URL:-postgresql+asyncpg://postgres:postgres@postgres:5432/statskill}
+      JWT_SECRET: ${JWT_SECRET:-supersecret_statskill_jwt_key_hackathon_demo_2026_change_in_prod}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:5173","http://127.0.0.1:5173"]}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      SUPABASE_URL: ${SUPABASE_URL:-}
+      SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY:-}
+      DEBUG: "True"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # ============================================================================
+  # 3. Vite + React + Tailwind Frontend Web App
+  # ============================================================================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: statskill_frontend
+    restart: unless-stopped
+    command: npm run dev -- --host 0.0.0.0
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8000}
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+    driver: local

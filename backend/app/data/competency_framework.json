@@ -1,0 +1,248 @@
+{
+  "framework_name": "NSSTA-MoSPI Statistical Competency Framework",
+  "version": "2026.1",
+  "description": "National Statistical Systems Training Academy (NSSTA) standard competency taxonomy for Indian public statistical cadres (SIH PS 26101).",
+  "domains": [
+    {
+      "id": "statistical",
+      "name": "Statistical",
+      "description": "Core methodological, mathematical, and macroeconomic statistical proficiencies.",
+      "skills": [
+        {
+          "name": "Survey Sampling & Methodology",
+          "description": "Stratified random sampling, multistage cluster design, and NSSO sampling weight adjustments."
+        },
+        {
+          "name": "National Accounts & Macro-aggregates",
+          "description": "GDP, GVA estimation, Input-Output tables, and System of National Accounts (SNA) standards."
+        },
+        {
+          "name": "Price Indices (CPI/WPI/IIP)",
+          "description": "Basket weighting, Laspeyres/Paasche formula application, and inflation indices calculation."
+        },
+        {
+          "name": "Hypothesis Testing & Statistical Inference",
+          "description": "Parametric/non-parametric tests, p-value interpretation, and regression diagnostics."
+        },
+        {
+          "name": "Time Series Forecasting",
+          "description": "ARIMA, seasonal decomposition, trend filtering, and macroeconomic time-series modeling."
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "name": "Technical",
+      "description": "Applied computational, algorithmic, and software tools for public sector analytics.",
+      "skills": [
+        {
+          "name": "Python for Data Science",
+          "description": "Data wrangling, Pandas, NumPy, and scientific computing for official datasets."
+        },
+        {
+          "name": "SQL & Relational Databases",
+          "description": "Complex relational queries, indexing, CTEs, and enterprise data extraction."
+        },
+        {
+          "name": "Machine Learning & Predictive Modeling",
+          "description": "Supervised/unsupervised learning, anomaly detection in census/survey filings."
+        },
+        {
+          "name": "GIS & Spatial Analytics",
+          "description": "Geospatial mapping, QGIS, shapefiles, and spatial distribution of socio-economic indicators."
+        },
+        {
+          "name": "Data Visualization & BI Dashboards",
+          "description": "PowerBI, Tableau, Streamlit, and high-impact visual briefing charts for ministry executives."
+        }
+      ]
+    },
+    {
+      "id": "digital_governance",
+      "name": "Digital Governance",
+      "description": "Compliance, data security, statutory protocols, and institutional data sharing frameworks.",
+      "skills": [
+        {
+          "name": "Digital Personal Data Protection (DPDP)",
+          "description": "Compliance with Indian DPDP Act, data fiduciary mandates, and privacy-preserving data masking."
+        },
+        {
+          "name": "Cybersecurity & IT Audit Compliance",
+          "description": "GovTech security benchmarks, CERT-In compliance, and safe handling of citizen records."
+        },
+        {
+          "name": "Open Government Data (NDAP & Portals)",
+          "description": "Publishing open data according to NDSAP guidelines, metadata schemas, and API publication."
+        },
+        {
+          "name": "Data Quality Assurance & Validation",
+          "description": "Field scrutiny rules, automated outlier filters, and validation checklists."
+        },
+        {
+          "name": "Inter-Departmental Data Exchange Standards",
+          "description": "API-driven interoperability, DigiLocker integration, and federal data standardization."
+        }
+      ]
+    },
+    {
+      "id": "behavioural",
+      "name": "Behavioural",
+      "description": "Leadership, cross-functional collaboration, policy articulation, and public service ethics.",
+      "skills": [
+        {
+          "name": "Policy Briefing & Executive Communication",
+          "description": "Translating intricate statistical metrics into concise policy briefs for ministers and secretaries."
+        },
+        {
+          "name": "Inter-Departmental Stakeholder Coordination",
+          "description": "Engaging line ministries, state statistical bureaus, and external research bodies."
+        },
+        {
+          "name": "Evidence-Based Decision Making",
+          "description": "Relying on rigorous statistical findings to guide public resource allocation."
+        },
+        {
+          "name": "Project Leadership & Resource Management",
+          "description": "Managing field enumerator teams, survey budgets, and operational timelines."
+        },
+        {
+          "name": "Analytical Problem Solving",
+          "description": "Diagnosing non-response biases, survey bottlenecks, and formulating empirical solutions."
+        }
+      ]
+    }
+  ],
+  "roles": {
+    "Statistical Analyst": {
+      "title": "Statistical Analyst",
+      "cadre": "Indian Statistical Service / Subordinate Statistical Service",
+      "required_levels": {
+        "Survey Sampling & Methodology": 85,
+        "National Accounts & Macro-aggregates": 80,
+        "Price Indices (CPI/WPI/IIP)": 85,
+        "Hypothesis Testing & Statistical Inference": 90,
+        "Time Series Forecasting": 75,
+        "Python for Data Science": 70,
+        "SQL & Relational Databases": 75,
+        "Machine Learning & Predictive Modeling": 60,
+        "GIS & Spatial Analytics": 50,
+        "Data Visualization & BI Dashboards": 80,
+        "Digital Personal Data Protection (DPDP)": 65,
+        "Cybersecurity & IT Audit Compliance": 50,
+        "Open Government Data (NDAP & Portals)": 70,
+        "Data Quality Assurance & Validation": 85,
+        "Inter-Departmental Data Exchange Standards": 60,
+        "Policy Briefing & Executive Communication": 75,
+        "Inter-Departmental Stakeholder Coordination": 65,
+        "Evidence-Based Decision Making": 80,
+        "Project Leadership & Resource Management": 60,
+        "Analytical Problem Solving": 85
+      }
+    },
+    "Data Collector": {
+      "title": "Data Collector",
+      "cadre": "Field Operations Division (FOD) / NSSO",
+      "required_levels": {
+        "Survey Sampling & Methodology": 75,
+        "National Accounts & Macro-aggregates": 30,
+        "Price Indices (CPI/WPI/IIP)": 60,
+        "Hypothesis Testing & Statistical Inference": 40,
+        "Time Series Forecasting": 25,
+        "Python for Data Science": 20,
+        "SQL & Relational Databases": 30,
+        "Machine Learning & Predictive Modeling": 15,
+        "GIS & Spatial Analytics": 65,
+        "Data Visualization & BI Dashboards": 35,
+        "Digital Personal Data Protection (DPDP)": 70,
+        "Cybersecurity & IT Audit Compliance": 60,
+        "Open Government Data (NDAP & Portals)": 45,
+        "Data Quality Assurance & Validation": 95,
+        "Inter-Departmental Data Exchange Standards": 40,
+        "Policy Briefing & Executive Communication": 40,
+        "Inter-Departmental Stakeholder Coordination": 60,
+        "Evidence-Based Decision Making": 55,
+        "Project Leadership & Resource Management": 50,
+        "Analytical Problem Solving": 70
+      }
+    },
+    "IT Officer": {
+      "title": "IT Officer",
+      "cadre": "GovTech / Informatics / National Informatics Centre (NIC)",
+      "required_levels": {
+        "Survey Sampling & Methodology": 40,
+        "National Accounts & Macro-aggregates": 30,
+        "Price Indices (CPI/WPI/IIP)": 35,
+        "Hypothesis Testing & Statistical Inference": 50,
+        "Time Series Forecasting": 40,
+        "Python for Data Science": 90,
+        "SQL & Relational Databases": 95,
+        "Machine Learning & Predictive Modeling": 80,
+        "GIS & Spatial Analytics": 75,
+        "Data Visualization & BI Dashboards": 85,
+        "Digital Personal Data Protection (DPDP)": 90,
+        "Cybersecurity & IT Audit Compliance": 95,
+        "Open Government Data (NDAP & Portals)": 85,
+        "Data Quality Assurance & Validation": 75,
+        "Inter-Departmental Data Exchange Standards": 90,
+        "Policy Briefing & Executive Communication": 55,
+        "Inter-Departmental Stakeholder Coordination": 60,
+        "Evidence-Based Decision Making": 65,
+        "Project Leadership & Resource Management": 70,
+        "Analytical Problem Solving": 85
+      }
+    },
+    "Director / Senior Statistician": {
+      "title": "Director / Senior Statistician",
+      "cadre": "Senior Administrative Grade / Higher Administrative Grade",
+      "required_levels": {
+        "Survey Sampling & Methodology": 90,
+        "National Accounts & Macro-aggregates": 95,
+        "Price Indices (CPI/WPI/IIP)": 90,
+        "Hypothesis Testing & Statistical Inference": 85,
+        "Time Series Forecasting": 85,
+        "Python for Data Science": 55,
+        "SQL & Relational Databases": 60,
+        "Machine Learning & Predictive Modeling": 65,
+        "GIS & Spatial Analytics": 60,
+        "Data Visualization & BI Dashboards": 85,
+        "Digital Personal Data Protection (DPDP)": 85,
+        "Cybersecurity & IT Audit Compliance": 75,
+        "Open Government Data (NDAP & Portals)": 85,
+        "Data Quality Assurance & Validation": 90,
+        "Inter-Departmental Data Exchange Standards": 85,
+        "Policy Briefing & Executive Communication": 95,
+        "Inter-Departmental Stakeholder Coordination": 95,
+        "Evidence-Based Decision Making": 95,
+        "Project Leadership & Resource Management": 95,
+        "Analytical Problem Solving": 90
+      }
+    },
+    "admin": {
+      "title": "Cadre Director & Administrator",
+      "cadre": "NSSTA / MoSPI Administrative Leadership",
+      "required_levels": {
+        "Survey Sampling & Methodology": 85,
+        "National Accounts & Macro-aggregates": 90,
+        "Price Indices (CPI/WPI/IIP)": 85,
+        "Hypothesis Testing & Statistical Inference": 85,
+        "Time Series Forecasting": 80,
+        "Python for Data Science": 70,
+        "SQL & Relational Databases": 75,
+        "Machine Learning & Predictive Modeling": 65,
+        "GIS & Spatial Analytics": 60,
+        "Data Visualization & BI Dashboards": 85,
+        "Digital Personal Data Protection (DPDP)": 90,
+        "Cybersecurity & IT Audit Compliance": 85,
+        "Open Government Data (NDAP & Portals)": 90,
+        "Data Quality Assurance & Validation": 90,
+        "Inter-Departmental Data Exchange Standards": 85,
+        "Policy Briefing & Executive Communication": 95,
+        "Inter-Departmental Stakeholder Coordination": 95,
+        "Evidence-Based Decision Making": 95,
+        "Project Leadership & Resource Management": 95,
+        "Analytical Problem Solving": 90
+      }
+    }
+  }
+}
+
