@@ -65,6 +65,22 @@ app.add_middleware(
 # Mount API v1 router
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
+@app.exception_handler(Exception)
+async def global_exception_handler(request, exc):
+    from fastapi.responses import JSONResponse
+    origin = request.headers.get("origin", "*")
+    return JSONResponse(
+        status_code=500,
+        content={"detail": f"Server Error (Check database connection): {str(exc)}"},
+        headers={
+            "Access-Control-Allow-Origin": origin,
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Allow-Methods": "*",
+        }
+    )
+
+
 # Also mount routers directly at root for convenience
 app.include_router(auth_router, prefix="/auth")
 app.include_router(onboarding_router)
