@@ -104,7 +104,7 @@ If you prefer configuring via the web dashboard:
    | :--- | :--- | :--- |
    | `APP_ENV` | `production` | Enables production mode |
    | `DEBUG` | `false` | Disables debug query printing |
-   | `DATABASE_URL` | `postgresql://postgres:[PASSWORD]@db.[REF].supabase.co:5432/postgres` | Your Supabase connection string from Step 1 |
+   | `DATABASE_URL` | `postgresql+asyncpg://postgres.vupdeaqxftanhturjrrq:8z_6bcBiDyD%21M%25z@aws-0-ap-south-1.pooler.supabase.com:5432/postgres` | Supabase IPv4 Session Pooler (Required for Render) |
    | `JWT_SECRET` | *(Click "Generate" or enter a 32+ char random string)* | Cryptographic key for session signing |
    | `CORS_ORIGINS` | `https://*.vercel.app,http://localhost:5173` | Allowed frontend domains |
    | `GEMINI_API_KEY` | *(Your Google AI Studio API Key)* | Free-tier LLM for RAG quiz generation |
