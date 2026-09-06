@@ -31,11 +31,13 @@ class Settings(BaseSettings):
     @field_validator("DATABASE_URL", mode="before")
     def assemble_db_connection(cls, v: str) -> str:
         if isinstance(v, str):
+            v = v.strip().strip("'").strip('"')
             # Normalize URL for asyncpg if standard postgresql:// or postgres:// is passed
             if v.startswith("postgresql://"):
                 return v.replace("postgresql://", "postgresql+asyncpg://", 1)
             elif v.startswith("postgres://"):
                 return v.replace("postgres://", "postgresql+asyncpg://", 1)
+            return v
         return v
 
     # Security & Auth
